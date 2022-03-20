@@ -1,0 +1,24 @@
+﻿  Source.cpp
+E:\Online Auction\Online Auction\Source.cpp(150,16): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+E:\Online Auction\Online Auction\Source.cpp(148,58): warning C4390: ';': empty controlled statement found; is this the intent?
+E:\Online Auction\Online Auction\Source.cpp(263,12): warning C4101: 'idnum': unreferenced local variable
+E:\Online Auction\Online Auction\Source.cpp(102): warning C4717: 'main': recursive on all control paths, function will cause runtime stack overflow
+Source1.obj : error LNK2005: "void __cdecl buyer(void)" (?buyer@@YAXXZ) already defined in Source.obj
+Source1.obj : error LNK2005: "void __cdecl checkdate(void)" (?checkdate@@YAXXZ) already defined in Source.obj
+Source1.obj : error LNK2005: "void __cdecl feedback(void)" (?feedback@@YAXXZ) already defined in Source.obj
+Source1.obj : error LNK2005: "void __cdecl items(void)" (?items@@YAXXZ) already defined in Source.obj
+Source1.obj : error LNK2005: "void __cdecl login(void)" (?login@@YAXXZ) already defined in Source.obj
+Source1.obj : error LNK2005: "void __cdecl membership(void)" (?membership@@YAXXZ) already defined in Source.obj
+Source1.obj : error LNK2005: "void __cdecl select(void)" (?select@@YAXXZ) already defined in Source.obj
+Source1.obj : error LNK2005: _main already defined in Source.obj
+Source1.obj : error LNK2005: "int k" (?k@@3HA) already defined in Source.obj
+Source1.obj : error LNK2005: "int l" (?l@@3HA) already defined in Source.obj
+Source1.obj : error LNK2005: "bool invalid" (?invalid@@3_NA) already defined in Source.obj
+Source1.obj : error LNK2005: "char ask" (?ask@@3DA) already defined in Source.obj
+Source1.obj : error LNK2005: "int itemnumbers" (?itemnumbers@@3HA) already defined in Source.obj
+Source1.obj : error LNK2005: "class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > username" (?username@@3V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@A) already defined in Source.obj
+Source1.obj : error LNK2005: "class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > password" (?password@@3V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@A) already defined in Source.obj
+Source1.obj : error LNK2005: "class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > status" (?status@@3V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@A) already defined in Source.obj
+Source1.obj : error LNK2005: "struct member * members" (?members@@3PAUmember@@A) already defined in Source.obj
+Source1.obj : error LNK2005: "struct sell * itemss" (?itemss@@3PAUsell@@A) already defined in Source.obj
+E:\Online Auction\Debug\Online Auction.exe : fatal error LNK1169: one or more multiply defined symbols found
